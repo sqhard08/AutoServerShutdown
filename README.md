@@ -64,3 +64,13 @@ To run the script periodically, you can add a cron job:
 
 ```sh
 */10 * * * * /path/to/auto_server_shutdown.sh
+```
+This will run the script every 10 minutes.
+
+## Usage
+1. Configure your server IPs and credentials in `config.sh`.
+2. Run `auto_server_shutdown.sh` manually or via cron.
+3. Check the log file for detailed information on the shutdown process.
+
+## Example Log Output
+The script will generate a log file named `server_shutdown.log`, detailing the status of each shutdown attempt. You will also receive notifications via Telegram with the results.
