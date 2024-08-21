@@ -15,7 +15,7 @@ AutoServerShutdown is a script designed to automate the shutdown process of mult
 1. **Clone the Repository**:
 
     ```sh
-    git clone https://github.com/your-username/AutoServerShutdown.git
+    git clone https://github.com/sqhard08/AutoServerShutdown.git
     cd AutoServerShutdown
     ```
 
