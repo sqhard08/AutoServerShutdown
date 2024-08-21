@@ -63,9 +63,9 @@ AutoServerShutdown is a script designed to automate the shutdown process of mult
 To run the script periodically, you can add a cron job:
 
 ```sh
-*/10 * * * * /path/to/auto_server_shutdown.sh
+0 14 * * 6 /path/to/auto_server_shutdown.sh
 ```
-This will run the script every 10 minutes.
+This will run the script once at a specified time and date.
 
 ## Usage
 1. Configure your server IPs and credentials in `config.sh`.
