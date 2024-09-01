@@ -1,4 +1,4 @@
-1#!/bin/bash
+2#!/bin/bash
 
 # Загрузка конфигурационного файла
 source ./config.sh
